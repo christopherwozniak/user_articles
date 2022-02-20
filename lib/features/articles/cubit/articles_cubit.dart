@@ -1,5 +1,4 @@
 import 'package:bloc/bloc.dart';
-import 'package:injectable/injectable.dart';
 
 import 'package:user_articles/app/core/enums.dart';
 import 'package:user_articles/domain/models/article_model.dart';
