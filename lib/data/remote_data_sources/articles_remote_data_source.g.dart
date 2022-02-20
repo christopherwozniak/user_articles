@@ -10,9 +10,7 @@ part of 'articles_remote_data_source.dart';
 
 class _ArticlesRemoteRetroFitDataSource
     implements ArticlesRemoteRetroFitDataSource {
-  _ArticlesRemoteRetroFitDataSource(this._dio, {this.baseUrl}) {
-    baseUrl ??= 'https://my-json-server.typicode.com/adamsmaka/json-demo';
-  }
+  _ArticlesRemoteRetroFitDataSource(this._dio, {this.baseUrl});
 
   final Dio _dio;
 

@@ -7,7 +7,7 @@ import 'package:user_articles/domain/models/author_model.dart';
 part 'authors_remote_data_source.g.dart';
 
 @injectable
-@RestApi(baseUrl: 'https://my-json-server.typicode.com/adamsmaka/json-demo')
+@RestApi()
 abstract class AuthorsRemoteRetroFitDataSource {
   @factoryMethod
   factory AuthorsRemoteRetroFitDataSource(Dio dio) =

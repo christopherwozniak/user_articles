@@ -10,9 +10,7 @@ part of 'authors_remote_data_source.dart';
 
 class _AuthorsRemoteRetroFitDataSource
     implements AuthorsRemoteRetroFitDataSource {
-  _AuthorsRemoteRetroFitDataSource(this._dio, {this.baseUrl}) {
-    baseUrl ??= 'https://my-json-server.typicode.com/adamsmaka/json-demo';
-  }
+  _AuthorsRemoteRetroFitDataSource(this._dio, {this.baseUrl});
 
   final Dio _dio;
 
