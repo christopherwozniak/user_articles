@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: BlocProvider<HomeCubit>(
         create: (context) {
-          return getIt()..start();
+          return getIt<HomeCubit>()..start();
         },
         child: BlocBuilder<HomeCubit, HomeState>(
           builder: (context, state) {
