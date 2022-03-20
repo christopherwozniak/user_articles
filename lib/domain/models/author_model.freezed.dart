@@ -5,10 +5,6 @@
 
 part of 'author_model.dart';
 
-// **************************************************************************
-// FreezedGenerator
-// **************************************************************************
-
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
